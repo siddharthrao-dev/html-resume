@@ -1,0 +1,97 @@
+/* === General Styling === */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container for all content */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* === Sections === */
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  color: #444;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* === Form === */
+form label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+  section {
+    padding: 15px;
+  }
+}
